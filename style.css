@@ -1,0 +1,210 @@
+.navbar {
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    top:0;
+    z-index: 2;     /*sends the navbar upfront p*/
+    background-color: black;
+    /*background-color: rgba(0, 0, 0, 0.8);*/
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 0px 16px 0px 0px;
+    text-decoration: none;
+   /* font-size: 12px*/
+}
+
+.navbar .form-inline {
+    position: absolute;
+    right: 0px;
+    padding: 14px 16px;
+    
+}
+
+.carousel-inner > .carousel-item {
+    width:780px;
+    max-height:439px;
+}
+
+div .carousel-caption{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+.carousel {
+    position: absolute;
+    left: 29%;
+    top:46px;
+    width: 780px;
+    z-index: 1;
+}
+
+#background {
+    position: absolute;
+    top: 46px;
+    left: 0px;
+    width: 100%;
+    height: 46%;
+    background-color: black;
+    z-index: 0;
+}
+
+#newUpcoming {
+    width:30%;
+    height:400px;
+    top: 500px;
+    left: 29%;
+    position:relative;
+    border:1px solid black;
+    background-color: black;
+}
+
+#weekendBO {
+    border:1px solid black;
+    width:10.5%;/*WTF*/
+    height:600px;
+    top: 100px;
+    left: 59.6%;/*WTF*/
+    position: relative;
+    background-color: black;
+   
+}
+
+#interestingFact {
+    border:1px solid black;
+    width:30%;
+    height:190px;/*WTF*/
+    top: -90px;
+    left: 29%;
+    position: relative;
+    background-color: black;
+    
+}
+
+#interestingHeader {
+    border-bottom:1px solid yellow;
+    width: 95%;
+    left: 2%;
+    position: absolute;
+    top:5px;
+}
+
+#trendingActors {
+    border:1px solid black;
+    width:10.5%;/*WTF*/
+    height:700px;
+    top: -80px;
+    left:59.6%;/*WTF*/
+    position: relative; 
+    background-color: black;
+}
+
+#trendingActorsHeader {
+    border-bottom:1px solid yellow;
+    width: 95%;
+    left: 2%;
+    position: relative;
+    top:5px;
+}
+
+#moviesToday {
+    border:1px solid black;
+    width:30%;
+    height:700px;
+    top: -780px;
+    left: 29%;
+	position: relative;
+    background-color: black;
+}
+
+#moviesTodayHeader {
+    border-bottom:1px solid yellow;
+    width: 95%;
+    left: 2%;
+    position: relative;
+    top:5px;
+}
+
+#headerText {
+    border-bottom:1px solid yellow;
+    width: 95%;
+    left: 2%;
+    position: absolute;
+    top: 5px;
+}
+
+#headerText h5 {
+    padding-left: 0px;
+    padding-top: 5px;
+}
+
+#weekendBOHeader {
+    border-bottom:1px solid yellow;
+    width: 95%;
+    left: 2%;
+    position: absolute;
+    top:5px;
+}
+
+#weekendBOHeader h5 {
+    padding-left: 0px;
+    padding-top: 5px;   
+}
+
+#newUpcoming .col{
+  top: 45px;
+  left: 10px;
+  
+}
+
+#trendingActors .container .row .col {
+    top: 20px;
+    
+}
+
+.container .row .col img {
+    border:1px solid yellow;
+
+}
+
+
+#movieofDay img{
+    border:1px solid yellow;
+    
+}
+
+#movieofDay {
+  
+    position: relative;
+    top: 40px;
+    left: 25px;
+    width: 90%;
+    height: 78%
+}
+
+#movieofdayDetails {
+ 
+    position: relative;
+    left: 110px;
+    width: 79%;
+    height: 90%;
+    top: -135px;
+}
+
+#trendingDetails p{
+    font-size: 9px;
+    position: absolute;
+    top: 20px;
+    left:95px;
+    padding-right: 10px;
+}
+
+
+
+
+
+
+
